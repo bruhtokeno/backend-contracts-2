@@ -1,2 +1,2 @@
 # backend-contracts
-Smart contracts used for processing transactions and handling fees on Bruhcrypto Finance. Imported from a forked version of Uniswap.
+Smart contracts used for processing transactions and handling fees on Bruhcrypto Finance. Involves two deployed contracts: SwapRouterV2 and SwapFactory. SwapRouterV2 processes the transaction in a similar way to Uniswap V2's routing system, which minimized gas fees and is used in other DEXs such as Sushiswap. SwapFactory creates liquidity pools with their own LP-tokens to represent a share of the pool that is staked to earn tokens and ETH from liquidity provider fees based on the LP-token holder's share of the pool.
